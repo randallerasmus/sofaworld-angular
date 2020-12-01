@@ -35,3 +35,18 @@ ng-sidebar-container{
 .menu li {
   margin-bottom: 15px;
 }
+
+.burger-button {
+  font-size: 1.5rem;
+        /*top left btm  rite*/
+  padding: 4% 2% 5% 4%;
+  background: none;
+  border:none;
+  color:black;
+  transition: all 0.3s ease 0s;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  outline: none;
+}
