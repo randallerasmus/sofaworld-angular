@@ -9,7 +9,13 @@ import { RouterModule} from '@angular/router';
 import { HomeComponent } from './modules/home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSidenavModule} from '@angular/material/sidenav';
-import { LayoutComponent } from './layout/layout.component';
+import {SidebarModule} from 'ng-sidebar';
+import { ContactComponent } from './modules/contact/contact.component';
+import { AboutUsComponent } from './modules/about-us/about-us.component';
+import { BlogComponent } from './modules/blog/blog.component';
+import { LookbookComponent } from './modules/lookbook/lookbook.component';
+import { AccessoriesComponent } from './modules/accessories/accessories.component';
+import { PagesComponent } from './modules/pages/pages.component';
 
 @NgModule({
   declarations: [
@@ -17,14 +23,20 @@ import { LayoutComponent } from './layout/layout.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    LayoutComponent
-  ],
+    ContactComponent,
+    AboutUsComponent,
+    BlogComponent,
+    LookbookComponent,
+    AccessoriesComponent,
+    PagesComponent,
+    ],
   imports: [
     BrowserModule,
     RoutingModule,
     RouterModule,
     BrowserAnimationsModule,
-    MatSidenavModule
+    MatSidenavModule,
+    SidebarModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
