@@ -1,0 +1,37 @@
+ng-sidebar-container{
+  height: 100vh;
+}
+
+::ng-deep .ng-sidebar {
+  background-color: #f4f4f4;
+  width: 150px;
+  padding: 2em 3em;
+  box-shadow: 0 0 2.5em rgba(85, 85, 85, 0.5);
+}
+
+.sidebar-button {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: black;
+  border: none;
+  background: none;
+  display: flex;
+}
+
+.sidebar-button:focus {
+  outline: none;
+}
+
+.menu {
+  margin-top: 5em;
+  display: block;
+}
+
+.menu li a {
+  display: block;
+  width: 100%;
+}
+
+.menu li {
+  margin-bottom: 15px;
+}

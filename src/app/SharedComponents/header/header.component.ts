@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  opened = false;
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  toggleSidebar() {
+    console.log('sidebar is clicked');
+    this.opened = !this.opened;
+    console.log('sidebar is already clicked');
   }
 
 }
