@@ -25,17 +25,31 @@ ng-sidebar-container{
 
 .menu {
   margin-top: 5em;
+  font-size: medium;
   display: block;
   list-style-type: none;
+  cursor: pointer;
+  color: black;
 }
 
 .menu li a {
   display: block;
   width: 100%;
+
 }
 
 .menu li {
   margin-bottom: 15px;
+}
+
+.menu li:hover {
+  opacity: 0.6;
+  background-color: #f4511e;
+  width: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  /*transform: translate(-50%, -50%);*/
+  transition: background-position 0.1s ease-out;
 }
 
 .burger-button {
