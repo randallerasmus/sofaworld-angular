@@ -26,6 +26,7 @@ ng-sidebar-container{
 .menu {
   margin-top: 5em;
   display: block;
+  list-style-type: none;
 }
 
 .menu li a {
