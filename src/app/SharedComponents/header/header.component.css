@@ -15,8 +15,9 @@ ng-sidebar-container{
   color: black;
   border: none;
   background: none;
-  display: flex;
+  display: contents;
   cursor: pointer;
+  margin-top: 9vh;
 }
 
 .sidebar-button:focus {
