@@ -8,10 +8,11 @@ import {PagesComponent} from '../modules/pages/pages.component';
 import {BlogComponent} from '../modules/blog/blog.component';
 import {LookbookComponent} from '../modules/lookbook/lookbook.component';
 import {AccessoriesComponent} from '../modules/accessories/accessories.component';
+import {MainHeaderComponent} from '../main-header/main-header.component';
 
 
 const routes: Routes = [
-            { path: 'home', component: HomeComponent},
+            { path: 'home', component: MainHeaderComponent},
             { path: '', redirectTo: '/home', pathMatch: 'full'},
             { path: 'accessories', component: AccessoriesComponent},
             { path: 'lookbook', component: LookbookComponent},

@@ -16,6 +16,12 @@ import { BlogComponent } from './modules/blog/blog.component';
 import { LookbookComponent } from './modules/lookbook/lookbook.component';
 import { AccessoriesComponent } from './modules/accessories/accessories.component';
 import { PagesComponent } from './modules/pages/pages.component';
+import { MainHeaderComponent } from './main-header/main-header.component';
+import { LayoutModule } from '@angular/cdk/layout';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+import { MatListModule } from '@angular/material/list';
 
 @NgModule({
   declarations: [
@@ -29,6 +35,7 @@ import { PagesComponent } from './modules/pages/pages.component';
     LookbookComponent,
     AccessoriesComponent,
     PagesComponent,
+    MainHeaderComponent,
     ],
   imports: [
     BrowserModule,
@@ -36,7 +43,11 @@ import { PagesComponent } from './modules/pages/pages.component';
     RouterModule,
     BrowserAnimationsModule,
     MatSidenavModule,
-    SidebarModule.forRoot()
+    LayoutModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatIconModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
