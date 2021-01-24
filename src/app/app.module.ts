@@ -9,7 +9,6 @@ import { RouterModule} from '@angular/router';
 import { HomeComponent } from './modules/home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSidenavModule} from '@angular/material/sidenav';
-import {SidebarModule} from 'ng-sidebar';
 import { ContactComponent } from './modules/contact/contact.component';
 import { AboutUsComponent } from './modules/about-us/about-us.component';
 import { BlogComponent } from './modules/blog/blog.component';
